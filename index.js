@@ -9,7 +9,7 @@ image1.setAttribute("src", randomImgSrc);
 //for dice 2 :
 
 var randomnum2 = Math.floor(Math.random()*6)+1;
-var randomImageSrc2 = "images/Dice" + randomnum2 + ".png";               //dice 1 to 6
+var randomImageSrc2 = "Dice" + randomnum2 + ".png";               //dice 1 to 6
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSrc2);
 
 if (randomNumber1 > randomnum2) {
